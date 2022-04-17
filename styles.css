@@ -55,11 +55,11 @@ a,
 
 .top-content button {
     margin-top: 8px;
-    background-color: rgb(57, 57, 255);
+    background-color: #3882F6;
     font-size: 18px;
     font-weight: bold;
     color: #E5E7EB;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: none;
     padding: 4px 24px;
 }
