@@ -44,7 +44,7 @@ a,
 }
 
 .top-content .text {
-    width: 400px;
+    width: 500px;
 }
 
 .top-content h1 {
@@ -67,6 +67,36 @@ a,
 .top-content img {
     width: 300px;
     height: auto;
+}
+
+.middle-content {
+    color: #1f2937;
+    text-align: center;
+}
+
+.middle-content h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.cards {
+    display: flex;
+    margin: 0 300px;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .card img {
