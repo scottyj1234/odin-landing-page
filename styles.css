@@ -108,3 +108,31 @@ a,
     border-radius: 25px;
 }
 
+.quote-content {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.bounding-width {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-content p {
+    margin: 0;
+}
+.quote-content .author {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    padding-right: 50px;
+}
