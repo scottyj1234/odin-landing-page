@@ -2,8 +2,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header {
+.header, .top-content{
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,7 +16,6 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
     font-weight: bold;
 }
 
@@ -24,14 +27,41 @@ ul {
     gap: 16px;
 }
 
-a {
+a,
+.top-content p {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
-.header img {
-    width: 80px;
-    height: auto;
+.top-content {
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+    gap: 16px;
+}
+
+.top-content .text {
+    width: 400px;
+}
+
+.top-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.top-content button {
+    margin-top: 8px;
+    background-color: rgb(57, 57, 255);
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    border-radius: 10px;
+    border-style: none;
+    padding: 4px 24px;
 }
 
 .top-content img {
